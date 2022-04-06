@@ -1,0 +1,93 @@
+.N
+{
+background-color: rgb(240, 121 ,121);
+}
+nav{
+    display: flex;
+   
+}
+.b
+{
+    font-style: italic;
+}
+h1
+{
+    text-align: center;
+}
+nav
+{
+    position: fixed;
+    right: 10%;
+}
+h1
+{
+    color: rgb(240, 121, 121);
+}
+img
+{
+    position: relative;
+    
+}
+img, ul
+{
+    display: inline-block;
+}
+body
+{
+    background-color: rgb(205, 219, 215);
+}
+body{
+    font-size: 0.9em;
+}
+@media screen and (max-width: 1024px)
+{
+    img{
+    width: 50px;
+    }
+    p
+    {
+width: 50px;
+    }
+    h1{
+        font-size: xx-small;
+        width:30px;
+    }
+    body :{
+font-size: xx-small;
+
+    }
+    nav{
+        margin-left: 5%;
+        flex-wrap: wrap;
+    }
+}
+@media screen (min-width: 900px) {
+    h1{
+        width:30px;
+    }
+}
+header
+{
+    background: url("210735970.jpeg")
+}
+footer
+{
+    position: relative;
+    bottom: 0%;
+
+}
+li
+{
+    border: 1PX solid rgb(240, 121, 121);
+}
+p{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  
+  
+  
