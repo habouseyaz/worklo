@@ -4,7 +4,6 @@ background-color: rgb(240, 121 ,121);
 }
 nav{
     display: flex;
-   
 }
 .b
 {
@@ -19,7 +18,7 @@ nav
     position: fixed;
     right: 10%;
 }
-h1
+h1,h4
 {
     color: rgb(240, 121, 121);
 }
@@ -34,7 +33,7 @@ img, ul
 }
 body
 {
-    background-color: rgb(205, 219, 215);
+    background: url("greg-rosenke-6QnEf_b47eA-unsplash.jpg")
 }
 body{
     font-size: 0.9em;
@@ -42,11 +41,11 @@ body{
 @media screen and (max-width: 1024px)
 {
     img{
-    width: 50px;
+    width: 50%;
     }
     p
     {
-width: 50px;
+width: 50%;
     }
     h1{
         font-size: xx-small;
@@ -86,8 +85,12 @@ p{
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+  p{
+      color:white;
+  }
+  li{
+      color: blue;
+  }
   
   
-  
-  
-  
+    
